@@ -2,7 +2,7 @@
   "description": "This extension let you delete facebook sales posts that do not fit in the specified price range and thus make your researches faster.",
   "manifest_version": 2,
   "name": "Salesbook Filter",
-  "version": "1.0",
+  "version": "1.0.1",
   "homepage_url": "https://github.com/vladmourier/salesbook-filter",
   "icons": {
     "48": "icons/icon48.png"

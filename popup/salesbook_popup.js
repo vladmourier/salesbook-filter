@@ -4,7 +4,7 @@
 browser.tabs.query({'active': true, 'lastFocusedWindow': true}).then((tabs) => {
     let url = tabs[0].url;
     let btn = document.querySelector("#filter");
-    if (url.indexOf("https://www.facebook.com/groups") > -1 || url.indexOf("forsaleposts") > -1) {
+    if (url.indexOf("https://www.facebook.com/groups") > -1 && ( url.indexOf("forsaleposts") > -1 || url.indexOf("for_sale_search") > -1)) {
         btn.removeAttribute("disabled")
     } else {
         btn.setAttribute("disabled", "true");
