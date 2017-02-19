@@ -1,0 +1,4 @@
+input[type="number"] {
+    text-align: right;
+    max-width: 300px;
+}

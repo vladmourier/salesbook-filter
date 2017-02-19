@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../lib/w3.css"/>
+    <link rel="stylesheet" href="options.css"/>
+    <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.css"/>
+</head>
+
+<body>
+<div class="w3-container w3-half">
+    <div class="w3-panel w3-red w3-jumbo w3-center">
+        INSTRUCTIONS
+    </div>
+    <div class="w3-panel w3-justify">
+        <h1>Filtrer des annonces</h1>
+        <ul>
+            <li>Rendez vous sur un groupe facebook disposant de publications de ventes.</li>
+            <li>Rendez vous sur la page "Publications de vente".
+                Vous pouvez également utiliser l'outil de recherche de facebook afin d'obtenir un jeu d'annonces
+                pertinent
+            </li>
+            <li>Assurez vous que l'extension est correctement configurée</li>
+            <li>Filtrez !</li>
+        </ul>
+        <div class="w3-code">
+            <h3>Astuce</h3>
+            <p>L'extension filtre uniquement les annonces déjà affichées. Ainsi, lorsque vous souhaitez traiter un grand nombre d'annonces, il est conseillé d'en charger un maximum sur la page avant d'exécuter le script</p>
+            <p>Il est également possible de charger un certain nombre d'annonces, les filtrer, en charger à nouveau, etc ...</p>
+        </div>
+        <h1>Configurer l'application</h1>
+        <p>Afin de correctement paramétrer l'extension, dans la partie option, entrez les prix minimum et maximum dont vous souhaitez voir
+            apparaître les annonces.
+            Dès lors qu'un des prix est changé, la modification est prise en compte et les nouveaux paramètres sont
+            appliqués instantanément</p>
+        <p>Par défaut, l'extension utilise les valeurs suivantes : min=0, max=200</p>
+    </div>
+</div>
+<div class="w3-container w3-half">
+    <div class="w3-panel w3-indigo w3-jumbo w3-center">
+        OPTIONS
+    </div>
+    <div class="w3-panel">
+        <label class="w3-label" for="minPrice">Prix min</label>
+        <input class="w3-input" type="number" min="0" id="minPrice" placeholder="Min"/>
+    </div>
+    <div class="w3-panel">
+        <label class="w3-label" for="minPrice">Prix max</label>
+        <input class="w3-input" type="number" min="0" id="maxPrice" placeholder="Max"/>
+    </div>
+</div>
+<script src="options.js"></script>
+</body>
+
+</html>
